@@ -4,7 +4,7 @@
 Open ``mpesa.php`` and add your own sandbox consumer secret and consumer key
 
 ## App
-Ensure you have the requirements to run an ionic app:
+Ensure you have the requirements to run a php app:
     - You may need a php server ie
     - Xampp
     - Wampp
