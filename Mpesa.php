@@ -29,7 +29,10 @@ class Mpesa
     public static function curlPost()
     {
         self::AccessToken();
+        //Sandbox Url https://sandbox.safaricom.co.ke/mpesa/qrcode/v1/generate
+        //Live Url $url = "https://api.safaricom.co.ke/mpesa/qrcode/v1/generate";
         $url = "https://sandbox.safaricom.co.ke/mpesa/qrcode/v1/generate";
+        
         $ch = curl_init();
         curl_setopt_array(
             $ch,
@@ -52,7 +55,8 @@ class Mpesa
     public static function AccessToken()
     {
         self::load();
-
+//Sandbox Url https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials');
+//Live Url https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials');
         $curl = curl_init('https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials');
         curl_setopt_array(
             $curl,

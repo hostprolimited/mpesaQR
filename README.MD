@@ -10,7 +10,8 @@ Ensure you have the requirements to run an ionic app:
     - Wampp
     - Online Server
 
-
+## Full API'S Documentation
+Demo Project: https://developer.safaricom.co.ke/APIs/DynamicQRCode
 
 ## Demo
 Demo Project: https://apitest.hostpay.co.ke/pesaqr/
